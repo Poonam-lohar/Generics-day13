@@ -4,9 +4,9 @@ public class FindMaxValue {
 
     /* create maxOfInteger method and passing argumants */
 
-    public static void maxOfInteger(Integer a, Integer b, Integer c) {
+    public static void maxOfFloat(float a, Float b, Float c) {
 
-        Integer max = a;
+        Float max = a;
         if (b.compareTo(a) > 0) {
             max = b;
         }
@@ -14,14 +14,14 @@ public class FindMaxValue {
             max = c;
 
         }
-        System.out.println("Maximum Integer is: " + max);
+        System.out.println("Maximum Float is: " + max);
     }
 
     public static void main(String[] args) {
 
         System.out.println("Welcome To Find Maximum value program using generics \n");
-        Integer a = 10, b = 20, c = 30;
-        maxOfInteger(a, b, c); //method calling
+        Float a = 1.2f,b = 4.1f,c=3.6f;
+        maxOfFloat(a,b,c);//method calling
     }
 }
 
