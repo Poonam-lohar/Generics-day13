@@ -2,11 +2,10 @@ package com.bridgelabz;
 
 public class FindMaxValue {
 
-    /* create maxOfInteger method and passing argumants */
+    /* create maxOfString method and passing argumants */
 
-    public static void maxOfFloat(float a, Float b, Float c) {
-
-        Float max = a;
+    public static void maxOfString(String a,String b,String c) {
+        String max = a;
         if (b.compareTo(a) > 0) {
             max = b;
         }
@@ -14,14 +13,14 @@ public class FindMaxValue {
             max = c;
 
         }
-        System.out.println("Maximum Float is: " + max);
+        System.out.println("Maximum String is: " + max);
     }
 
     public static void main(String[] args) {
 
         System.out.println("Welcome To Find Maximum value program using generics \n");
-        Float a = 1.2f,b = 4.1f,c=3.6f;
-        maxOfFloat(a,b,c);//method calling
+        String a = "Apple",b = "Peach",c="Banana";
+        maxOfString(a,b,c);//method calling
     }
 }
 
