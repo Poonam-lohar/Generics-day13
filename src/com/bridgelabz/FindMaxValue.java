@@ -21,7 +21,7 @@ public class FindMaxValue {
 
         System.out.println("Welcome To Find Maximum value program using generics \n");
         Integer a = 10, b = 20, c = 30;
-        maxOfInteger(a,b,c); //method calling
+        maxOfInteger(a, b, c); //method calling
     }
 }
 
